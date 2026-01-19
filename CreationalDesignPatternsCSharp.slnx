@@ -3,4 +3,5 @@
   <Project Path="AbstractFactoryTest/AbstractFactoryTest.csproj" />
   <Project Path="BuilderDesign/BuilderDesign.csproj" />
   <Project Path="BuilderDesignPatternTest/BuilderDesignPatternTest.csproj" />
+  <Project Path="FactoryDesign/FactoryDesign.csproj" Id="f5e981d1-d1c0-485b-9c0a-611d772f9fae" />
 </Solution>

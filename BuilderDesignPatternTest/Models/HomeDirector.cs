@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace BuilderDesignPatternTest.Models;
 
-namespace BuilderDesignPatternTest.Models
+internal class HomeDirector
 {
-    internal class HomeDirector
+    public Home BuilderHome()
     {
+        return new HomeBuilder()
+        .SetFoundation("Güçlendirilmiş Beton Temel")
+        .SetWalls("Tuğla Duvarlar")
+        .SetRoof("Kiremit Çatı")
+        .SetInterior("Modern İç Mekan")
+        .Build();
     }
 }
